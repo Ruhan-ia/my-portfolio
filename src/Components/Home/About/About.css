@@ -1,0 +1,21 @@
+.about{
+   
+    animation-name: about-my;
+    animation-duration: 2s;
+    animation-iteration-count: inherit;
+    position: relative;
+}
+
+@keyframes about-my{
+    0%{
+        top: 100px;
+        opacity: 0.5; 
+
+    }
+  
+    100%{
+        top:0px;
+        box-shadow: 0, 1px , 0, 1px;
+
+    }
+}

@@ -1,0 +1,33 @@
+.html{
+    animation-name: html;
+    animation-duration: 2s;
+    animation-iteration-count: inherit;
+    position: relative;
+}
+
+@keyframes html{
+    0%{
+        right:100px;
+        opacity: .5;
+    }
+    100%{
+        right: 0px;
+    }
+}
+
+.css{
+    animation-name: css;
+    animation-duration: 2s;
+    animation-iteration-count: inherit;
+    position: relative;
+}
+
+@keyframes css{
+    0%{
+        left:100px;
+        opacity: .5;
+    }
+    100%{
+        left: 0px;
+    }
+}

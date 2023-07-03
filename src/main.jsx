@@ -8,6 +8,10 @@ import {
 } from "react-router-dom";
 import Home from './Components/Home/Home.jsx';
 import Main from './Layout/Main.jsx';
+import About from './Components/Home/About/About.jsx';
+import Skills from './Components/Home/Skills/Skills.jsx';
+import Projects from './Components/Home/Projects/Projects.jsx';
+import Contact from './Components/Home/Contact/Contact.jsx';
 
 const router = createBrowserRouter([
   {
@@ -18,6 +22,22 @@ const router = createBrowserRouter([
         path:'/',
         element:<Home></Home>
       },
+      {
+        path:'/about',
+        element:<About></About>
+      },
+      {
+        path:'/skills',
+        element:<Skills></Skills>
+      },
+      {
+        path:'/projects',
+        element:<Projects></Projects>
+      },
+      {
+        path:'/contact',
+        element:<Contact></Contact>
+      }
      
     ]
   },
@@ -25,7 +45,9 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-      <RouterProvider router={router} />
+<div>
+<RouterProvider router={router} />
 
+</div>
   </React.StrictMode>,
 )

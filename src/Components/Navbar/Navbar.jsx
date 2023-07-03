@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import resume from '../../../public/resume/Istiak Ahamad Resume1.pdf'
+import resume from '../../assets/resume/Istiak Ahamad Resume1.pdf'
 
 const Navbar = () => {
 
@@ -17,6 +17,9 @@ const Navbar = () => {
               </li>
               <li>
                 <Link to='/about'>About</Link>
+              </li>
+              <li>
+                <Link to='/skills'>Skills</Link>
               </li>
               <li>
                 <Link to='/contact'>Contact</Link>
@@ -52,6 +55,7 @@ const Navbar = () => {
             </ul>
           </div>
           <a className="btn btn-ghost normal-case text-xl">Portfolio</a>
+          <span>toogle</span>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
