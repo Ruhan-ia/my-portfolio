@@ -5,15 +5,15 @@ import ss3 from '../../../assets/images/profile/Screenshot 2023-07-03 220610.png
 const Projects = () => {
   return (
     <div>
-        <h2 className="font-bold text-4xl text-center mt-20">Projects</h2>
+        <h2 className="font-bold text-4xl text-center my-12">Projects</h2>
     <div className="grid px-20 mt-20 about lg:grid-cols-3 gap-5">
-      <div className="card lg:card-side bg-base-100 shadow-xl">
+      <div className="card    bg-base-100 shadow-xl">
       <div className="avatar">
-          <div className="w-auto rounded">
+          <div className="w-3/4 mx-auto rounded">
             <img src={ss3} />
           </div>
         </div>
-        <div className="card-body">
+        <div className="card-body ">
           <h2 className="card-title font-bold text-green-500">
             Italian food Recipe
           </h2>
@@ -50,9 +50,9 @@ const Projects = () => {
             <p>2.Also can Add any food recipe.</p>
         </div>
       </div>
-      <div className="card lg:card-side bg-base-100 shadow-xl">
+      <div className="card  bg-base-100 shadow-xl">
         <div className="avatar">
-          <div className="w-auto rounded">
+          <div className="w-3/4 mx-auto rounded">
             <img src={ss1} />
           </div>
         </div>
@@ -90,9 +90,9 @@ const Projects = () => {
           <p>1.This site for kinds.They just love Toys.You can buy any toys add any toys.This site has very much fun.</p>
         </div>
       </div>
-      <div className="card lg:card-side bg-base-100 shadow-xl">
+      <div className="card  bg-base-100 shadow-xl">
       <div className="avatar">
-          <div className="w-auto rounded">
+          <div className="w-3/4 mx-auto  rounded">
             <img src={ss2} />
           </div>
         </div>

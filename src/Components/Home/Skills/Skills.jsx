@@ -12,97 +12,97 @@ import logo9 from "../../../assets/images/logo/MongoDB.png";
 
 const Skills = () => {
   return (
-    <div className="about">
+    <div className="about container mx-auto">
       <h3 className="font-bold text-4xl text-center py-12">Skills</h3>
-      <div className="grid w-[80%] mx-auto   lg:grid-cols-3 gap-4 ">
-        <div className="card w-96 bg-base-100 shadow-xl html">
+      <div className="grid container mx-auto w-[80%]  lg:grid-cols-3 gap-4 ">
+        <div className="card w-96 h-64 bg-base-100 shadow-xl ">
           <div className="avatar">
-            <div className="w-auto rounded">
+            <div className="w-1/2 mx-auto  rounded">
               <img src={logo1} />
             </div>
           </div>
           <div className="card-body">
-            <h2 className="card-title">HTML</h2>
+            <h2 className="card-title mx-auto font-bold">HTML</h2>
           </div>
         </div>
-        <div className="card w-96 bg-base-100 shadow-xl">
+        <div className="card w-96 h-64 bg-base-100 shadow-xl">
           <div className="avatar">
-            <div className="w-auto rounded">
+            <div className="w-1/2 mx-auto   rounded">
               <img src={logo2} />
             </div>
           </div>
           <div className="card-body">
-            <h2 className="card-title">CSS</h2>
+            <h2 className="card-title mx-auto font-bold">CSS</h2>
           </div>
         </div>
-        <div className="card w-96 bg-base-100 shadow-xl css">
+        <div className="card w-96 h-64 bg-base-100 shadow-xl ">
           <div className="avatar">
-            <div className="w-auto rounded">
+            <div className="w-1/2 mx-auto rounded">
               <img src={logo3} />
             </div>
           </div>
           <div className="card-body">
-            <h2 className="card-title">JAVAScript</h2>
+            <h2 className="card-title mx-auto font-bold">JAVAScript</h2>
           </div>
         </div>
-        <div className="card w-96 bg-base-100 shadow-xl">
+        <div className="card w-96 h-64 bg-base-100 shadow-xl">
           <div className="avatar">
-            <div className="w-auto rounded">
+            <div className="w-1/2 mx-auto rounded">
               <img src={logo4} />
             </div>
           </div>
           <div className="card-body">
-            <h2 className="card-title">Bootstrap</h2>
+            <h2 className="card-title mx-auto font-bold">Bootstrap</h2>
           </div>
         </div>
-        <div className="card w-96 bg-base-100 shadow-xl">
+        <div className="card w-96 h-64 bg-base-100 shadow-xl">
           <div className="avatar">
-            <div className="w-auto rounded">
+            <div className="w-1/2 mx-auto rounded">
               <img src={logo5} />
             </div>
           </div>
           <div className="card-body">
-            <h2 className="card-title">TailwindCss</h2>
+            <h2 className="card-title  mx-auto font-bold">TailwindCss</h2>
           </div>
         </div>
-        <div className="card w-96 bg-base-100 shadow-xl">
+        <div className="card w-96 h-64 bg-base-100 shadow-xl">
           <div className="avatar">
-            <div className="w-auto rounded">
+            <div className="w-1/2 mx-auto rounded">
               <img src={logo6} />
             </div>
           </div>
           <div className="card-body">
-            <h2 className="card-title">React</h2>
+            <h2 className="card-title mx-auto font-bold">React</h2>
           </div>
         </div>
-        <div className="card w-96 bg-base-100 shadow-xl">
+        <div className="card w-96 h-64 bg-base-100 shadow-xl">
           <div className="avatar">
-            <div className="w-auto rounded">
+            <div className="w-1/2 mx-auto  rounded">
               <img src={logo7} />
             </div>
           </div>
           <div className="card-body">
-            <h2 className="card-title">Node js</h2>
+            <h2 className="card-title mx-auto font-bold">Node js</h2>
           </div>
         </div>
-        <div className="card w-96 bg-base-100 shadow-xl">
+        <div className="card w-96 h-64 bg-base-100 shadow-xl">
           <div className="avatar">
-            <div className="w-auto rounded">
+            <div className="w-1/2 mx-auto  rounded">
               <img src={logo8} />
             </div>
           </div>
           <div className="card-body">
-            <h2 className="card-title">Express js</h2>
+            <h2 className="card-title mx-auto font-bold">Express js</h2>
           </div>
         </div>
-        <div className="card w-96 bg-base-100 shadow-xl">
+        <div className="card w-96 h-64 bg-base-100 shadow-xl">
           <div className="avatar">
-            <div className="w-auto rounded">
+            <div className="w-1/2 mx-auto rounded">
               <img src={logo9} />
             </div>
           </div>
           <div className="card-body">
-            <h2 className="card-title">MongoDb</h2>
+            <h2 className="card-title mx-auto font-bold">MongoDb</h2>
           </div>
         </div>
      
